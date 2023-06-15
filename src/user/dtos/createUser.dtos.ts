@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-export interface ICreateUser {
+export interface ICreateUserDto {
   email: string;
   name: string;
   cpf: string;
