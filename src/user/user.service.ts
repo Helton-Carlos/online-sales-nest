@@ -14,7 +14,7 @@ export class UserService {
 
     const user = {
       ...createUserDto,
-      id: (this.users.length = 1),
+      id: (this.users.length + 1),
       password,
     };
 
