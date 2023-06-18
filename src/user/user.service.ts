@@ -22,4 +22,8 @@ export class UserService {
 
     return user;
   }
+
+  async getAllUsers(): Promise<IUser[]> {
+    return this.users;
+  }
 }
